@@ -1,12 +1,18 @@
+# https://m.blog.naver.com/PostView.nhn?blogId=kimmingul&logNo=220728839623&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F
+
 library(pso)
 
 ## Not run: 
 ## Some examples of using the functions in the package
 
+fn <- function(x){  
+    20+sum(x^2-10*cos(2*pi*x))
+}
+
 ## Using basic "optim" interface to minimize a function
 set.seed(1)
-psoptim(rep(NA,2),function(x) 20+sum(x^2-10*cos(2*pi*x)),
-        lower=-5,upper=5,control=list(abstol=1e-8))
+psoptim(rep(NA,2),fn, 
+        lower=-5,upper=5, control=list(abstol=1e-8))
 
 ## Parabola
 p <- test.problem("parabola",10) # one local=global minimum

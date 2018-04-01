@@ -1,11 +1,8 @@
 # Monte Carlo Simulation with comments
 
 R   <-   5000   # set 5,000 replications
-
 mu   <-   10   # set mu to 10
-
 sdev   <-   2   # set standard deviation to 2
-
 N   <-   c ( 5 ,   30 ,   60 )   # define 3 sample size conditions
 
 # create a null matrix (with R rows, and 
