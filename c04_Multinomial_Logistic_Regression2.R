@@ -1,4 +1,4 @@
-#Multinomial Logistic Regression with Iris Data
+# Multinomial Logistic Regression with Iris Data
 # R에서는 multinom()을 사용해 모델을 작성할 수 있다.
 # multinom은 nnet패키지의 함수이다.
 # http://rstudio-pubs-static.s3.amazonaws.com/14459_af8466cb23844215b74c03a471bf8e3c.html
