@@ -1,0 +1,12 @@
+name: app3
+title: app3
+username:
+account: smart1004
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 321095
+bundleId: 1316218
+url: https://smart1004.shinyapps.io/app3/
+when: 1523566280.0322
+asMultiple: FALSE
+asStatic: FALSE
